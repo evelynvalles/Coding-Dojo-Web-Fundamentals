@@ -1,0 +1,41 @@
+* {
+    background-color: lightgrey;
+}
+
+h1 {
+    text-align: center;
+    color: darkslategray;
+    font-size: 42px;
+}
+
+img {
+    height: 200px;
+}
+
+.margin, .flex, .padding, .align-center .justify-content {
+    margin: 20px;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+h1, .source {
+    font-family: sans-serif;
+}
+
+.superhero-block {
+    background-color: deepskyblue;
+}
+
+.pets-block {
+    background-color: pink;
+}
+
+.cute-block {
+    background-color: white;
+}
+
+.source {
+    text-align: center;
+}
