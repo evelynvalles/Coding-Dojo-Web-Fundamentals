@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- nav -->
+
+    <div class="nav">
+        <div class="nav-bar">
+            <div class="nav-title">
+                <h1>Dojonary</h1>
+            </div>
+            <div class="nav-search">
+                <form>
+                    <input type="text" value=" Search">
+                </form>
+            </div>
+            <div class="login-btn">
+                <button onclick="login(this)">Login</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- main -->
+    <div class="main">
+    <div class="main-content">
+
+        <!-- 2/3 width column -->
+        <div class="col-2">
+
+            <div class="ninja-box">
+                <div class="ninja-description">
+                    <h1>ninja</h1>
+                    <h2>noun</h2>
+                    <h3>Plural: <span class="italics"> ninjas</span></h3>
+                    <button onclick="likeButton(this)">13 Likes</button>
+                </div>
+                <div class="ninja-definitions">
+                    <p>A practitioner skilled in the 
+                    <a href="https://en.wikipedia.org/wiki/Japanese" target="_blank">Japanese</a> art of
+                    <a href="https://en.wikipedia.org/wiki/Ninjutsu" target="_blank">ninjtsu</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="ninja-box">
+                <div class="ninja-description">
+                    <h1>ninja</h1>
+                    <h2>noun</h2>
+                    <h3>Plural: <span class="italics"> ninjas</span></h3>
+                    <button onclick="likeButton(this)">37 Likes</button>
+                </div>
+                <div class="ninja-definitions">
+                    <p>A <a href="https://en.wikipedia.org/wiki/Programmer" target="_blank">programmer</a> who breaks down problems with 
+                    <a href="https://en.wikipedia.org/wiki/Zen" target="_blank">zen</a>-like focus
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-1">
+
+            <div class="dojonary-box">
+                <div class="dojonary-slogan">
+                    <h1>Dojonary is defined by <span class="bold"> YOU</span></h1>
+                </div>
+                <div class="dojonary-btn">
+                    <button onclick="removeDef(this)">Add Definition</button>
+                </div>
+            </div>    
+
+        </div>
+
+    </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    background-color: rgb(189, 186, 186);
+}
+
+.nav-title {
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.nav-search input {
+    border-color: black;
+    width: 425px;
+    height: 25px;
+    color: rgb(145, 143, 143);
+}
+
+.login-btn {
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.login-btn button {
+    background-color: blue;
+    color: white;
+    width: 65px;
+    height: 28px;
+    font-size: .8rem;
+    font-weight: bold;
+    box-shadow: 5px 3px black;
+}
+
+.col-2 {
+    flex: 2;
+    margin-right: 15px;
+}
+
+.col-1 {
+    flex: 1;
+}
+
+.ninja-box {
+    border: 3px solid black;
+    padding: 15px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ninja-description h1, .ninja-description h2, .ninja-description h3, .ninja-description button {
+    margin: 10px;
+    text-align: center;
+}
+
+.ninja-definitions {
+    width: 70%;
+}
+
+.ninja-description h1 {
+    font-size: 38px;
+}
+
+.ninja-description h2 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.ninja-description h3 {
+    font-size: 18px;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.ninja-description button {
+    width: 100px;
+    padding: 5px;
+    background-color: gold;
+    border-color: black;
+    font-weight: bold;
+    box-shadow: 5px 3px black;
+}
+
+a {
+    color: blue;
+}
+
+.dojonary-box {
+    border: 3px solid black;
+    margin: 20px 0;
+    padding: 15px;
+}
+
+.dojonary-slogan {
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.dojonary-btn button {
+    background-color: rgb(129, 177, 55);
+    padding: 10px;
+    font-weight: bold;
+    width: 275px;
+    font-weight: bold;
+    box-shadow: 5px 3px black;
+}
