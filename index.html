@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes Project Part II</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- nav -->
+
+    <div class="nav">
+        <div class="nav-bar">
+            <h1>Network</h1>
+        </div>
+    </div>
+
+    <!-- main -->
+
+    <div class="title">
+        <h1>Your Feed</h1>
+    </div>
+
+    <div class="main">
+
+        <div class="flex"> 
+
+            <div class="col-1">
+
+                <div class="user-box">
+                    <div class="pic">
+                        <img src="img/user-circle.png" alt="Evelyn Valles">
+                    </div>
+                    <a href="#">Add an avatar</a>
+                    <h1>Evelyn Valles</h1>
+                </div>
+
+            </div>
+
+            <div class="col-2">
+
+                <div class="feed-box">
+                    <div class="user">
+                        <div class="user-name">
+                            <h1>Neil M</h1>
+                        </div>
+                        <div class="like-count">
+                            <h3><span id="likes1">9</span> like(s)</h3>
+                            <button onclick="likesCount(0)">Like</button>
+                        </div>
+                    </div>
+                    <div class="feed-content">
+                        <p>I just set up this new discord bot, let me know what you all think.
+                            <a href="#">link</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="feed-box">
+                    <div class="user">
+                        <div class="user-name">
+                            <h1>Nichole K</h1>
+                        </div>
+                        <div class="like-count">
+                            <h3><span id="likes2">12</span> like(s)</h3>
+                            <button onclick="likesCount(1)">Like</button>
+                        </div>
+                    </div>
+                    <div class="feed-content">
+                        <p>Just finished my <a href="#">next comic</a>, check it out.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="feed-box">
+                    <div class="user">
+                        <div class="user-name">
+                            <h1>Jim R</h1>
+                        </div>
+                        <div class="like-count">
+                            <h3><span id="likes3">9</span> like(s)</h3>
+                            <button onclick="likesCount(2)">Like</button>
+                        </div>
+                    </div>
+                    <div class="feed-content">
+                        <p>I can't stop listening to the 
+                            <a href="#">new album</a>. Who else is liking it?
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

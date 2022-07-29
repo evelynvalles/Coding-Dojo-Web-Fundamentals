@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+}
+
+.nav-bar {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding-left: 35px;
+}
+
+.title {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-1 {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.user-box {
+    border: 3px solid black;
+    padding: 10px;
+    width: 175px;
+    margin-top: 5px;    
+    margin-right: 20px;
+}
+
+.user-box img {
+    width: 85px;
+    height: 85px;
+    border: none;
+    border-radius: 50%;
+}
+
+.user-box a, .user-box img, .user-box h1, .pic {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.user-box h1 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.feed-box {
+    border: 3px solid black;
+    padding: 10px;
+    width: 535px;
+    margin-top: 5px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-name {
+    margin: 15px;
+    font-size: 18px;
+}
+
+.like-count {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+    margin-right: 20px;
+}
+
+.feed-content {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.like-count button {
+    background-color: gold;
+    font-weight: bold;
+    width: 75px;
+    height: 35px;
+    box-shadow: 5px 5px black;
+}
+
+a {
+    color: blue;
+}
