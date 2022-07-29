@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: rgb(124, 162, 233);
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 1000px;
+}
+
+.nav-title {
+    font-size: 2.5rem;
+}
+
+
+.nav ul {
+    display: flex;
+    font-size: 1.3rem;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 40%;
+    margin-right: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #999;
+}
+
+.subtitle h2 {
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+
+
+.subtitle select, .subtitle label {
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+.subtitle select {
+    width: 60px;
+}
+
+.forecast {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.forecast-box {
+    width: 215px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(223, 223, 223);
+}
+
+.forecast-box img {
+    border: none;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
+
+.forecast-box h1, .forecast-box img, .forecast-box h3 {
+    margin: 18px 0;
+}
+
+.forecast-box h3 {
+    font-size: 18px;
+}
+
+.temp-degrees {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.temp-degrees p {
+    margin: 10px 35px 0 35px;
+}
+
+.high {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.low {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer {
+    position: fixed;
+    bottom: 10px;
+}
+
+.cookie-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(235, 234, 234);
+    border: 2px solid #999;
+    width: 1000px;
+    height: 125px;
+}
+
+.cookie-box img, .cookie-content, .cookie-box button {
+    margin: 0 30px;
+}
+
+.cookie-content {
+    width: 70%;
+}
+
+.cookie-box button {
+    background-color: rgb(124, 162, 233);
+    color: black;
+    border: 2px solid black;
+    width: 125px;
+    height: 35px;
+    box-shadow: 4px 4px black;
+    font-weight: bold;
+    cursor: pointer;
+}

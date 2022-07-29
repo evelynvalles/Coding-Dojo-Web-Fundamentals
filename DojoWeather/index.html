@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+
+    <div class="nav">
+        <div class="navbar">
+            <h1 class="nav-title">DojoWeather</h1>
+            <ul class="nav-links">
+                <li onclick="loading()"><a href="#">Burbank</a></li>
+                <li onclick="loading()"><a href="#">Chicago</a></li>
+                <li onclick="loading()"><a href="#">Dallas</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- main -->
+
+    <div class="container">
+
+        <div class="subtitle">
+                <h2>San Jose</h2>
+                <form>
+                    <label>Show temperature in </label>
+                    <select onchange="convert(this)">
+                        <option>°C</option>
+                        <option>°F</option>
+                    </select>
+                </form>
+        </div>
+
+        <!-- forecast blocks -->
+
+        <div class="forecast">
+
+            <div class="forecast-box">
+                <h1>Today</h1>
+                <img src="assets/some_rain.png" alt="some rain icon">
+                <h3>some rain</h3>
+                <div class="temp-degrees">
+                    <p class="high" id="temp1">24°</p>
+                    <p class="low" id="temp2">18°</p>
+                </div>
+            </div>
+
+            <div class="forecast-box">
+                <h1>Tommorow</h1>
+                <img src="assets/some_sun.png" alt="some sun icon">
+                <h3>some sun</h3>
+                <div class="temp-degrees">
+                    <p class="high" id="temp3">27°</p>
+                    <p class="low" id="temp4">19°</p>
+                </div>
+            </div>
+
+            <div class="forecast-box">
+                <h1>Friday</h1>
+                <img src="assets/some_clouds.png" alt="some clouds icon">
+                <h3>some clouds</h3>
+                <div class="temp-degrees">
+                    <p class="high" id="temp5">21°</p>
+                    <p class="low" id="temp6">16°</p>
+                </div>
+            </div>
+
+            <div class="forecast-box">
+                <h1>Saturday</h1>
+                <img src="assets/some_sun.png" alt="some sun icon">
+                <h3>some sun</h3>
+                <div class="temp-degrees">
+                    <p class="high" id="temp7">26°</p>
+                    <p class="low" id="temp8">21°</p>
+                </div>
+            </div>
+
+        </div>
+        
+        <!-- cookie box -->
+        <div class="footer">
+            <div class="cookie-box">
+                <img src="assets/cookie.png" alt="cookie icon">
+                <div class="cookie-content">
+                    <h2>Stop! Cookie time</h2>
+                    <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our traffic. 
+                        <a href="#">Read more...</a>
+                    </p>
+                </div>
+                <button onclick="removeCookie()">I Accept</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
